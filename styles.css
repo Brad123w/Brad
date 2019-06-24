@@ -1,0 +1,85 @@
+@font-face {
+  font-family: spaceRanger;
+  src: url(fonts/spaceranger.ttf);
+} 
+
+@font-face {
+  font-family:Century Gothic;
+  src:url(fonts/nu_century_gothic.ttf);
+}
+
+html {
+    background-color: Black;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: black;
+    font-family: spaceRanger;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    border-bottom:solid red;
+    width: 30%;
+}
+
+
+nav a {
+    font-family: spaceRanger;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: spaceRanger;
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    text-align: center
+}
+
+section {
+    background-color: black;
+    color: white;
+    font-family:Century Gothic;
+    text-align: center;
+    width: 70%;
+    margin: 300px auto;
+    display: flex;
+}
+
+.left , .right {
+    width: 50%;
+    box-shadow: 1px 1px 1px 4px red;
+}
+
+footer {
+    background-color: black;
+    color: red;
+    font-family:Century Gothic;
+    text-align:center;
+}
+
+
+.right img{
+  width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    width: 50%;
+    margin: 1vh 2%;
+}
