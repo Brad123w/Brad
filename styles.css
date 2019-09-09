@@ -26,6 +26,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.3s;
+
 }
 
 .line {
@@ -39,6 +41,10 @@ nav a {
     color: white;
     text-decoration: none;
 }
+nav a:hover {
+    color: red;
+}
+
 
 h1 {
     font-family: spaceRanger;
@@ -107,3 +113,5 @@ footer {
 h3 {
     color: gold
 }
+
+
